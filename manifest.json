@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "HaleyMD",
+  "description": "This extension aggregates med school info",
+  "version": "1.0",
+  "browser_action": {
+    "default_title": "Click Me"
+  },
+  "content_scripts": [ {
+    "js":[ "js/medSchool.js"],
+    "matches": [ "http://medical-schools.startclass.com/*"]
+  } ]
+}
